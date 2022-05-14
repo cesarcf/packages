@@ -1,0 +1,24 @@
+{
+  "name": "@cesarcf/packages",
+  "version": "0.0.1",
+  "private": true,
+  "author": "Cesar Carbajo <cesar.carbajo.ferrero@gmail.com>",
+  "description": "npm packages",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {},
+  "devDependencies": {},
+  "overrides": {},
+  "engines": {
+    "node": ">= 16.13.x < 17.x",
+    "npm": ">= 8.1.x",
+    "yarn": ">= 1.22.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cesarcf/packages"
+  },
+  "homepage": "https://github.com/cesarcf/packages#readme"
+}
