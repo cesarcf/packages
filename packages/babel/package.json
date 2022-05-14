@@ -1,0 +1,38 @@
+{
+  "name": "@cesarcf/babel",
+  "version": "0.0.1",
+  "author": "Cesar Carbajo <cesar.carbajo.ferrero@gmail.com>",
+  "description": "@cesarcf: babel.config",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": {
+      "require": "./babel.config.cjs",
+      "import": "./babel.config.js"
+    }
+  },
+  "files": [
+    "*.js",
+    "*.cjs"
+  ],
+  "dependencies": {
+    "@babel/cli": "7.17.6",
+    "@babel/core": "7.17.9",
+    "@babel/plugin-proposal-class-properties": "7.16.7",
+    "@babel/plugin-proposal-export-namespace-from": "7.16.7",
+    "@babel/preset-env": "7.16.11",
+    "@babel/preset-react": "7.16.7",
+    "@babel/preset-typescript": "7.16.7",
+    "babel-plugin-jsx-remove-data-test-id": "3.0.0"
+  },
+  "engines": {
+    "node": ">= 16.13.x < 17.x",
+    "npm": ">= 8.1.x",
+    "yarn": ">= 1.22.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cesarcf/packages.git"
+  },
+  "homepage": "https://github.com/cesarcf/packages/blob/main/packages/babel/README.md"
+}
