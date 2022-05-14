@@ -1,6 +1,5 @@
 {
   "name": "@cesarcf/packages",
-  "version": "0.0.1",
   "private": true,
   "author": "Cesar Carbajo <cesar.carbajo.ferrero@gmail.com>",
   "description": "npm packages",
@@ -20,5 +19,5 @@
     "type": "git",
     "url": "git+https://github.com/cesarcf/packages"
   },
-  "homepage": "https://github.com/cesarcf/packages#readme"
+  "homepage": "https://github.com/cesarcf/packages"
 }
