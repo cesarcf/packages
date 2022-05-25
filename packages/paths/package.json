@@ -15,6 +15,9 @@
   ],
   "devDependencies": {
     "@cesarcf/tools-cli": "*",
+    "@cesarcf/webpack": "*",
+    "@cesarcf/babel": "*",
+    "@cesarcf/jest": "*",
     "fast-glob": "3.2.11"
   },
   "engines": {

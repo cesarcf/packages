@@ -5,7 +5,7 @@ const { step, error, die, space } = require("@cesarcf/tools-cli");
 
 const babelPath = path.dirname(require.resolve("@cesarcf/babel/package.json"));
 const webpackPath = path.dirname(require.resolve("@cesarcf/webpack/package.json"));
-const testPath = path.dirname(require.resolve("@cesarcf/test/package.json"));
+const jestPath = path.dirname(require.resolve("@cesarcf/jest/package.json"));
 
 const safePath = (unsafePath) =>
   unsafePath.startsWith("/") ? path.join(...[path.sep, ...unsafePath.split("/")]) : path.join(...unsafePath.split("/"));
@@ -31,7 +31,7 @@ const inProject = (basePath = process.cwd(), opts = {}) => {
       .replace("<root>", basePath)
       .replace("<babel>", babelPath)
       .replace("<webpack>", webpackPath)
-      .replace("<test>", testPath);
+      .replace("<jest>", jestPath);
 
   const fixPaths = ({ path, ...rest }) => ({
     path: expandPath(path),
