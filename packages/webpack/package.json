@@ -1,6 +1,6 @@
 {
   "name": "@cesarcf/webpack",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "author": "Cesar Carbajo <cesar.carbajo.ferrero@gmail.com>",
   "description": "@cesarcf: webpack.config",
   "license": "MIT",
