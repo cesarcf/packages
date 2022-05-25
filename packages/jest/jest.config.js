@@ -29,15 +29,9 @@ module.exports = {
     "\\.[tj]sx?$": findFile("<root>/config/jest.transformer.js", "<jest>/jest.transformer.js"),
   },
 
-  // Code search paths
-  // modulePaths: [paths.root],
-
   setupFiles: [
     // Configure environment variables for the test environment
     findFile("<root>/config/jest.env.js", "<jest>/jest.env.js"),
-
-    // Load polyfills (TODO: es necesario añadirlo en el proyecto)
-    // fromRoot("packages/polyfills"),
   ],
 
   setupFilesAfterEnv: [
@@ -52,7 +46,7 @@ module.exports = {
     "\\.(png|jpe?g|gif|svg)$": findFile("<jest>/jest.nullmapper.js"),
   },
 
-  // Do not create coverage reports by default. Use the --coverage CLI option to override it
+  // Do not create coverage reports by default.
   collectCoverage: false,
 
   // Dump the coverage reports into the "coverage" folder
@@ -65,8 +59,6 @@ module.exports = {
   coverageReporters: ["text", "html", "lcov", "clover"],
 
   // Añade la configuracion custom de babel a la compilacion del ts-jest
-  // Jest runs the code in your project as JavaScript, por eso cuando usamos JSX o Typescript
-  // tenemos que transformar ese codigo a Javascript y luego Jest hace su trabajo.
   globals: {
     //While babel-jest by default will transpile TypeScript files, Babel will not verify the types.
     //If you want that you can use ts-jest.
