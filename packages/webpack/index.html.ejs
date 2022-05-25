@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" class="notranslate" translate="no">
+  <head>
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="google" content="notranslate" />
+    <% for (entry of htmlWebpackPlugin.files.css) { %>
+      <link href="<%= entry.replace("?", "?v=") %>" rel="stylesheet"/>
+    <% } %>
+  </head>
+  <body>
+    <div id="app">
+      <div style="font-size: 10pt; position: fixed; top: 50%; left: 50%; transform: translateX(-50%) translateY(-50%)">Loading...</div>
+    </div>
+    <% for (entry of htmlWebpackPlugin.files.js) { %>
+      <script type="text/javascript" src="<%= entry.replace("?", "?v=") %>"></script>
+    <% } %>
+  </body>
+</html>
