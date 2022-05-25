@@ -16,7 +16,7 @@
     "!**/*.test.*",
     "!**/*.md"
   ],
-  "devDependencies": {
+  "dependencies": {
     "@cesarcf/babel": "*",
     "@cesarcf/paths": "*",
     "babel-loader": "8.2.3",

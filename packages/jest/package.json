@@ -13,7 +13,7 @@
     "!**/*.test.*",
     "!**/*.md"
   ],
-  "devDependencies": {
+  "dependencies": {
     "@cesarcf/paths": "*",
     "@cesarcf/babel": "*",
     "@cesarcf/webpack": "*",
