@@ -1,0 +1,31 @@
+{
+  "name": "@cesarcf/tools-cli",
+  "version": "0.0.1",
+  "author": "Cesar Carbajo <cesar.carbajo.ferrero@gmail.com>",
+  "description": "@cesarcf: tools-cli",
+  "license": "MIT",
+  "exports": {
+    ".": "./index.js",
+    "./console-logs": "./console-logs.js",
+    "./terminate": "./terminate.js",
+    "./banners": "./banners.js"
+  },
+  "files": [
+    "**/*.js",
+    "!**/*.test.*",
+    "!**/*.md"
+  ],
+  "devDependencies": {
+    "chalk": "4.1.0"
+  },
+  "engines": {
+    "node": ">= 16.13.x < 17.x",
+    "npm": ">= 8.1.x",
+    "yarn": ">= 1.22.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cesarcf/packages.git"
+  },
+  "homepage": "https://github.com/cesarcf/packages/blob/main/packages/tools-cli"
+}
