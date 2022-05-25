@@ -1,6 +1,6 @@
 {
   "name": "@cesarcf/jest",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Cesar Carbajo <cesar.carbajo.ferrero@gmail.com>",
   "description": "@cesarcf: jest config",
   "license": "MIT",
