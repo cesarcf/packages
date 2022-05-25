@@ -1,0 +1,2 @@
+// Null mapper :)
+module.exports = {};
