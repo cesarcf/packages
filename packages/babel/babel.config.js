@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   presets: [
     [
       // Configure the transpilation based on the target browsers
