@@ -37,6 +37,7 @@ module.exports = {
   setupFilesAfterEnv: [
     // Configure React testing library support
     findFile("<jest>/jest.rtl.js"),
+    findFile("<root>/config/msw.server.js", "<jest>/msw.server.js"),
   ],
 
   // Imported CSS/images mocks
