@@ -66,4 +66,6 @@ module.exports = {
       babelConfig: findFile("<root>/config/babel.config.js", "<babel>/babel.config.js"),
     },
   },
+
+  watchPlugins: ["jest-watch-typeahead/filename", "jest-watch-typeahead/testname"],
 };
