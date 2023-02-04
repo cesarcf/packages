@@ -21,7 +21,9 @@
     "@babel/preset-env": "7.20.2",
     "@babel/preset-react": "7.18.6",
     "@babel/preset-typescript": "7.18.6",
-    "babel-plugin-jsx-remove-data-test-id": "3.0.0"
+    "babel-plugin-jsx-remove-data-test-id": "3.0.0",
+    "core-js": "3.27.2",
+    "regenerator-runtime": "0.13.11"
   },
   "engines": {
     "node": ">= 16.13.x < 17.x",
